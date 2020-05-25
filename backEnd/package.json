@@ -1,0 +1,39 @@
+{
+  "name": "blog-noticias",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Claudio-code/blog-noticias.git",
+  "author": "claudio-code <suporte2424@outlook.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "build": "sucrase ./src -d ./dist --transforms imports",
+    "pretest": "NODE_ENV=test sequelize db:migrate",
+    "test": "NODE_ENV=test jest",
+    "posttest": "NODE_ENV=test sequelize db:migrate:undo:all"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-async-errors": "^3.1.1",
+    "jsonwebtoken": "^8.5.1",
+    "multer": "^1.4.2",
+    "mysql2": "^2.1.0",
+    "sequelize": "^5.21.10",
+    "youch": "^2.0.10",
+    "yup": "^0.29.0"
+  },
+  "devDependencies": {
+    "@sucrase/jest-plugin": "^2.0.0",
+    "@types/jest": "^25.2.3",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2",
+    "jest": "^26.0.1",
+    "nodemon": "^2.0.4",
+    "sequelize-cli": "^5.5.1",
+    "sucrase": "^3.15.0",
+    "supertest": "^4.0.2"
+  }
+}
