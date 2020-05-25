@@ -13,10 +13,17 @@ O back end usa boas praticas de programação orientada a objeto como inversão 
 
 O projeto foi desenvolvido utilizando as seguintes tecnologias.
 
-- [Nodejs](https://nodejs.org/en/)
-- [sequelize](https://sequelize.org/)
-- [Expressjs](https://expressjs.com/pt-br/)
-- [Mysql](https://www.mysql.com/)
+## [Nodejs](https://nodejs.org/en/)
+- O runTime do javascript que posibilita rodar javascript no servidor.
+
+## [sequelize](https://sequelize.org/)
+- O orm mais popular do javascript que abstrai a camada do banco de dados.
+
+## [Expressjs](https://expressjs.com/pt-br/)
+- O micro framework para montar o servidor com uma arquitetura maleavel.
+
+## [Mysql](https://www.mysql.com/)
+- O banco de dados mais legal de se usar principalmente se for dentro de uma instancia do docker.
 
 <a id="como-usar"></a>
 ## :fire: Como usar
