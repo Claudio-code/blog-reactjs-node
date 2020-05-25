@@ -5,8 +5,7 @@
 
 <a id="sobre"></a>
 ## :bookmark: Sobre 
-
- A explicação de como instalar e como usar está nas tags de <b>Front-End</b> e <b>Back-End</b>.
+   - Para construir essa aplicação foi usado o nodejs no back end e reactjs no front end pela velocidade no desenvolvimento, mais se fosse um blog real eu iria preferir usar o php com o laravel porque a indexação pelos buscadores é melhor em uma aplicação server-side.
 
 
 # Índice
