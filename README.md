@@ -10,8 +10,8 @@
 
 
 # Índice
-- [Front-End](https://github.com/Claudio-code/blog-noticias/tree/development/frontend)
-- [Back-End](https://github.com/Claudio-code/blog-noticias/tree/development/backEnd)
+- [Front-End](https://github.com/Claudio-code/blog-reactjs-node/tree/master/frontend)
+- [Back-End](https://github.com/Claudio-code/blog-reactjs-node/tree/master/backEnd)
 
 <h1 align="center">
     Lista de Posts
